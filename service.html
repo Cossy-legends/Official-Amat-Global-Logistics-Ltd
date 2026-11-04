@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Amat Global Logistics Ltd</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="https://www.google.com/maps/place/Jomo+Kenyatta+International+Airport/@-1.3225242,36.9219546,17z/data=!3m1!4b1!4m6!3m5!1s0x182f129102505cef:0xefc58e7ef0660bf2!8m2!3d-1.3225242!4d36.9245295!16zL20vMDExemNy?entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>JKIA, Nairobi-Kenya</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>0721907743</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>info@amatgloballogistics.co.ke</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="https://www.facebook.com/share/1QxQsJi3VP/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-facebook-f text-white"></i></a>
+                            <a href="https://x.com/Ahmedzmy0" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                    <h1 class="text-primary m-0">
+    <img src="img/about-2.jpg" alt="Logo" style="height: 75px; width: auto; vertical-align: middle; margin-right: 10px;">
+    Amat Global Logistics Ltd.
+</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="bg-breadcrumb-single"></div>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Service</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Services Start -->
+<style>
+    /* Services Section */
+    .service {
+        background: #f7f9fc;
+        overflow: hidden;
+    }
+
+    .service .service-heading {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    /* Service Cards */
+    .service .service-item {
+        height: 100%;
+        background: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+        transition: all 0.35s ease;
+        border: 1px solid #edf0f5;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service .service-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Square Service Images */
+    .service .service-img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .service .service-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.6s ease;
+    }
+
+    .service .service-item:hover .service-img img {
+        transform: scale(1.08);
+    }
+
+    /* Service Content */
+    .service .service-content {
+        padding: 25px 22px !important;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service .service-content-inner {
+        width: 100%;
+    }
+
+    .service .service-content h4 {
+        font-size: 21px;
+        font-weight: 700;
+        color: #14213d;
+        margin-bottom: 12px;
+        line-height: 1.35;
+    }
+
+    .service .service-content p {
+        color: #6b7280;
+        font-size: 15px;
+        line-height: 1.8;
+        margin: 0;
+    }
+
+    /* Tablet */
+    @media (max-width: 991px) {
+        .service .service-content {
+            padding: 20px 16px !important;
+        }
+
+        .service .service-content h4 {
+            font-size: 19px;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        .service {
+            padding-top: 55px !important;
+            padding-bottom: 55px !important;
+        }
+
+        .service .service-heading h1 {
+            font-size: 30px;
+        }
+
+        .service .service-content {
+            padding: 17px 12px !important;
+        }
+
+        .service .service-content h4 {
+            font-size: 17px;
+        }
+
+        .service .service-content p {
+            font-size: 13px;
+            line-height: 1.6;
+        }
+    }
+
+    /* Small Phones */
+    @media (max-width: 380px) {
+        .service .service-content h4 {
+            font-size: 15px;
+        }
+
+        .service .service-content p {
+            font-size: 12px;
+        }
+    }
+</style>
+
+<div class="container-fluid service py-5">
+    <div class="container-fluid px-4 px-lg-5 py-4">
+
+        <!-- Section Heading -->
+        <div class="text-center service-heading mx-auto pb-5 wow fadeInUp"
+             data-wow-delay="0.1s">
+
+            <h4 class="text-primary fw-bold mb-3">OUR SERVICES</h4>
+
+            <h1 class="display-4 fw-bold mb-3">
+                Comprehensive Logistics Solutions You Can Trust
+            </h1>
+
+            <p class="text-muted">
+                From transportation and cargo handling to international freight
+                and supply chain management, we provide reliable logistics
+                solutions tailored to your business needs.
+            </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="row g-4 justify-content-center">
+
+            <!-- Service 1 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/freight-forwarding.jpg" alt="Freight Forwarding" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Freight Forwarding</h4>
+                            <p>Reliable freight coordination and transportation solutions for the smooth movement of goods across local and international destinations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/road-transportation.jpg" alt="Road Transportation" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Road Transportation</h4>
+                            <p>Efficient road transport services designed to move goods safely, securely and reliably to their intended destinations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/clearing-forwarding.jpg" alt="Clearing and Forwarding" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Clearing & Forwarding</h4>
+                            <p>Professional assistance with customs procedures and cargo documentation to simplify imported and exported goods movement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/warehousing.jpg" alt="Warehousing" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Warehousing</h4>
+                            <p>Organized storage and cargo handling solutions that help businesses manage, protect and distribute their goods efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/cargo-handling.jpg" alt="Cargo Handling" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Cargo Handling</h4>
+                            <p>Careful cargo loading, unloading and handling services focused on maintaining the safety and condition of your goods.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/import-export.jpg" alt="Import and Export" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Import & Export</h4>
+                            <p>Supporting international trade through coordinated import and export logistics solutions that connect businesses to global markets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/supply-chain.jpg" alt="Supply Chain Management" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Supply Chain Management</h4>
+                            <p>Streamlined supply chain coordination that improves the movement, management and distribution of goods from origin to destination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 8 -->
+            <div class="col-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/courier-delivery.jpg" alt="Courier and Delivery" loading="lazy">
+                    </div>
+                    <div class="service-content text-center">
+                        <div class="service-content-inner">
+                            <h4>Courier & Delivery</h4>
+                            <p>Dependable delivery solutions for documents, parcels and packages, ensuring convenient and efficient movement to their destinations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+
+<!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4">Send Us A Message</h4>
+                                <p class="mb-3">Get in touch with Amat Global Solutions. Our team is ready to assist you with professional solutions tailored to your business needs.</p>
+                                <div class="position-relative mx-auto rounded-pill">
+                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Explore</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> JKIA, Nairobi-Kenya</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> info@amatgloballogistics.co.ke</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> 0721907743</a>
+                            <div class="d-flex align-items-center">
+                                 <a href="https://www.facebook.com/share/1QxQsJi3VP/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-facebook-f text-white"></i></a>
+                            <a href="https://x.com/Ahmedzmy0" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item-post d-flex flex-column">
+                            <h4 class="text-white mb-4">Amat Global Solutions Ltd</h4>
+                            <div class="d-flex flex-column mb-3">
+                                <p class="text-uppercase text-primary mb-2">Contact Us</p>
+                                <a href="#" class="text-body">At Amat Global Solutions, we believe every successful partnership begins with a conversation. Whether you need logistics support, procurement, supply solutions or professional business services, we are here to help. Reach out to our team today, and let's discuss how we can meet your needs efficiently and reliably.</a>
+                            </div>
+                            <div class="footer-btn text-start">
+                                <a href="#" class="btn btn-light rounded-pill px-4">Back Home<i class="fa fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Amat Global Solutions Ltd.</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** The author’s attribution link must remain intact in the template. ***/-->
+                        <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
+                        Developed By <a class="border-bottom text-primary" href="https://legends-technologies.vercel.app/">Legends Technologies Kenya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
